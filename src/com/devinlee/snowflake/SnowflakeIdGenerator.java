@@ -111,7 +111,7 @@ public class SnowflakeIdGenerator {
         for (int i = 0; i < 1000; i++) {
             long id = idWorker.nextId();
             //System.out.println(Long.toBinaryString(id));
-            System.out.println(id);//325157439760498688  //325157439852773452
+            System.out.println(id);
         }
     }
 }
